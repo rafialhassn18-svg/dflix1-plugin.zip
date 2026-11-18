@@ -1,0 +1,16 @@
+{
+  "name": "DFLIX",
+  "version": "1.0.2",
+  "description": "ISP media servers (CineplexBD movies+series, ShowTime movies+series)",
+  "scrapers": [
+    {
+      "id": "dflix",
+      "name": "DFLIX",
+      "description": "CineplexBD + ShowTime",
+      "version": "1.0.2",
+      "filename": "dflix.js",
+      "supportedTypes": ["movie", "tv"],
+      "enabled": true
+    }
+  ]
+}
